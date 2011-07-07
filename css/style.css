@@ -233,15 +233,24 @@ li > a {
     line-height: 24px;
 }
 
+.no-js #main {
+    margin-top: 10px;
+    height : 700px;
+}
+
 .js #main > div {
     display : none;
 }
 
-#signup {
+.js #signup {
     height: 205px;
 }
 
-#what {
+.no-js #signup, #where {
+    margin-top: 15px;
+}
+
+.js #what {
     height: 390px;
 }
 
